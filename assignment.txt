@@ -1,0 +1,25 @@
+1) draw exception hierarchy
+ans:- object
+	|
+     Throwable    >>>Error
+	|      		|
+     Exception		Virtual machine Error
+	|		|
+checked Exception	ASSERTION Error etc
+	|
+unchecked Exception 
+
+what is Runtime Exception
+ans:-RuntimeException is the superclass of those exceptions that can be thrown during the normal operation of the Java Virtual Machine.
+RuntimeException and its subclasses are unchecked exceptions. 
+what is compile time exception
+ans:-It is a compile-time error if a method or constructor body can throw some exception class E when E is a checked exception class and E is not a subclass of some class declared in the throws clause of the method or constructor.
+what is difference between checked and unchecked exception.
+ans:-
+Unchecked Exception:-
+
+The classes that extend RuntimeException are known as unchecked exceptions e.g. ArithmeticException,NullPointerException etc. Unchecked exceptions are not checked at compile-time.
+
+Checked Exception:-
+
+The classes that extend Throwable class except RuntimeException and Error are known as checked exceptions e.g.IOException,SQLException etc. Checked exceptions are checked at compile-time.
